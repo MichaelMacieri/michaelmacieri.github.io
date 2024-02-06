@@ -1,18 +1,28 @@
+/* https://michaelmacieri.github.io/  */
+
 table, th, td {border: 1px solid black;}
 
 nav {text-align: center;}
 
 .div1 {border: 5px outset darkblue; background-color: lightblue;text-align: center;}
 
+a:link,
 a:visited {color: blue;}
 a:hover {color: hotpink;}
 a:active {color: purple;}
 
-h2 {text-decoration: underline;}
+h2 {text-decoration: underline; font-size: 20pt}
+
+h3 {color: rgb(85, 85, 249); font-size: 16pt;}
+
+h4 {color: rgb(3, 3, 51); font-size: 14pt;}
 
 p1 { font-family: Arial; font-size: 12pt;}
 
-body { font-family: Arial; background-color: lightgrey; margin: 50pt; color: navy;}
+body { font-family: Arial; background-color: lightgrey; margin: 50pt; color: navy; font-size: 12pt;}
+
+
+
 
 .parent {
     width: 500pt;
