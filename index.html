@@ -9,8 +9,8 @@
         table, th, td {border: 1px solid black;}
         nav {text-align: center;}
         .div1 {border: 5px outset darkblue; background-color: lightblue;text-align: center;}
-        .tablelink {border: 5px outset black; background-color: lightcoral;text-align: center;}
-        .tabledesc {border: 5px outset black; background-color: lightgreen;}
+        .tablelink {border: 1px solid black; background-color: lightcoral;text-align: center;}
+        .tabledesc {border: 1px solid black; background-color: lightgreen;}
     </style>
 </head>
 <body>
@@ -47,21 +47,32 @@
             A list of my education:
         </p1>
         <table>
-            <div class="tablelink">
 
-                <tr>
-                <td><a href="https://sites.google.com/gapps.yrdsb.ca/bcssscoreboard/home?authuser=0">Bill Crothers</a></td>
-                <td><a href="https://www.torontomu.ca/calendar/2023-2024/programs/trsm/business_tech/">Toronto MU</a></td>
-                </tr>
-            </div>
-            <div class="tabledesc">
-                <tr>
-                <td>Graduated from Bill Crothers in 2020 with honours:</td>
-                <td>I am Completing my undergraduate at TMU and am currently <br>
-                    in by 4th year in the BTM program. I am also finishing a minor <br>
-                    in computer science and plan to get my masters in data analytics when I graduate</td>
-                </tr>
-            </div>
+            <tr>
+                <th>Link</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <div class="tablelink"></div>
+                    <td><a href="https://sites.google.com/gapps.yrdsb.ca/bcssscoreboard/home?authuser=0">Bill Crothers</a></td>
+                </div>
+                <div class="tabledesc">
+                    <td>Graduated from Bill Crothers in 2020 with honours:</td>
+                </div>
+            </tr>
+
+            <tr>
+                <div class="tablelink"></div>
+                    <td><a href="https://www.torontomu.ca/calendar/2023-2024/programs/trsm/business_tech/">Toronto MU</a></td>
+                </div>
+                <div class="tabledesc">
+                    <td>I am Completing my undergraduate at TMU and am currently in my.<br>
+                        4th year in the BTM program. I am also finishing a minor in computer <br>
+                        science and plan to get my masters in data analytics when I graduate. </td>
+                    </tr>
+                </div>
+            </tr>
+
         </table>
         <p1>
             A list of my education (list format):
