@@ -4,9 +4,9 @@ nav {text-align: center;}
 
 .div1 {border: 5px outset darkblue; background-color: lightblue;text-align: center;}
 
-.tablelink {border: 1px solid black; background-color: lightcoral;text-align: center; margin: 12pt;}
+.tablelink {border: 1px solid black; background-color: lightcoral;text-align: center; margin: 120pt;}
 
-.tabledesc {border: 1px solid black; background-color: lightgreen; margin: 12pt;}
+.tabledesc {border: 1px solid black; background-color: lightgreen; margin: 120pt;}
 
 a:visited {color: blue;}
 a:hover {color: hotpink;}
