@@ -12,4 +12,6 @@ a:visited {color: blue;}
 a:hover {color: hotpink;}
 a:active {color: purple;}
 
-p1 { font-family: Arial;}
+p1 { font-family: Arial; size: 12;}
+
+body { background-color: aqua; margin: 20pt;}
