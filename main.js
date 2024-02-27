@@ -27,3 +27,11 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+function changeColor(element) {
+    element.style.color = "red";
+}
+
+function resetColor(element) {
+    element.style.color = "white";
+}
