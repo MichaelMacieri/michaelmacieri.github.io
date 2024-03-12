@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"> defer</script>
+</head>
+<body>
+    <header>
+        <div class="div1">
+            <h1>Feedback</h1>
+        </div>
+    </header>
+    <br>
+    <nav>
+        <ul>
+            <li><a href="index.html" onmouseover="changeColor(this)" onmouseout="resetColor(this)">Home Page</a></li> &nbsp; &nbsp; &nbsp; &nbsp;
+            <li><a href="notUpdated.html" onmouseover="changeColor(this)" onmouseout="resetColor(this)">Updates</a></li> &nbsp; &nbsp; &nbsp; &nbsp;
+            <li><a href="skills.html" onmouseover="changeColor(this)" onmouseout="resetColor(this)">Skills</a></li> &nbsp; &nbsp; &nbsp; &nbsp;
+            <li><a href="feedback.html" onmouseover="changeColor(this)" onmouseout="resetColor(this)">Feedback</a></li> &nbsp; &nbsp; &nbsp; &nbsp;
+            <li><a href="notUpdated.html" onmouseover="changeColor(this)" onmouseout="resetColor(this)">Contact</a></li> &nbsp; &nbsp; &nbsp; &nbsp;
+        </ul>
+    </nav>
+    <header>
+        <h2>Descrpition</h2>
+    </header>
+    <main> 
+        <p1>
+            This form is for website viewers that wish to help improve the features and functionalty of the website in the future.
+             It is also a place to let us know your viewing expirience. All feedback is greatly appreciated. Thanks!
+        </p1>
+    </main>
+    <header>
+        <h2>Viewer Feedback Form</h2>
+    </header>
+    <form id="feedback">
+        <!--req1 --> 
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="FirstName" size="30"><br><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="LastName" size="30"><br><br>
+
+        <label for="occ">Occupation (optional):</label>
+        <input type="text" id="occ" name="occ" size="30"><br><br>
+        <!--req2 -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+        <!--req3 -->
+        <label for="birthday">Date of Birth:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+        <!--req4 -->
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email"><br>
+        <!--req5 -->
+        <p>How would you rate the website:</p>
+        <input type="radio" id="ones" name="ones" value="ones">
+        <label for="ones">One Star</label><br>
+        <input type="radio" id="twos" name="twos" value="twos">
+        <label for="twos">Two Stars</label><br>
+        <input type="radio" id="threes" name="threes" value="threes">
+        <label for="threes">Three Stars</label><br>
+        <input type="radio" id="fours" name="fours" value="fours">
+        <label for="fours">Four Stars</label><br>
+        <input type="radio" id="fives" name="fives" value="fives">
+        <label for="fives">Five Stars</label><br>
+        <!--req6 -->
+        <p>Do you engage in the following activities</p>
+        <input type="checkbox" id="act1" name="online forms" value="act1">
+        <label for="act1"> Filling out online forms</label><br>
+        <input type="checkbox" id="act2" name="chat features" value="act2">
+        <label for="act2"> Using online chat features</label><br>
+        <input type="checkbox" id="act3" name="social networking" value="act3">
+        <label for="act3"> Follow social networking sites</label><br>
+        <input type="checkbox" id="act4" name="online news" value="act4">
+        <label for="act4"> Read online news or content feeds</label><br><br> 
+        <!--req7 --> 
+        <label for="like">How likely are you to recommend this website (between 1 and 5):</label><br><br>
+        <label>No</label><input type="range" id="like" name="like" min="1" max="5" step="1" list="labelrange"> <label>Definitely</label>
+        <datalist id="labelrange">
+            <option value="1">No</option>
+            <option value="2">Not likely</option>
+            <option value="3">Maybe</option>
+            <option value="4">Probably</option>
+            <option value="5">Definitely</option>
+        </datalist>
+        <!--req8 --> 
+        <p><label for="addf">Additional Comments and Feedback:</label></p>
+        <textarea id="addf" name="addf" rows="4" cols="50"></textarea><br><br>
+        <!--req9 --> 
+        <input type="submit" value="submit">
+        <!--req10 --> 
+        <input type="reset" value="Reset">
+    </form>
+
+
+
+</body>
+</html>
