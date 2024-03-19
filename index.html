@@ -1,130 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- https://michaelmacieri.github.io/-->
+
+ <!-- https://michaelmacieri.github.io -->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Michael Macieri</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"> defer</script>
-</head>
+    <title>Bootstrap Portfolio/Resume Theme for Developers</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="shortcut icon" href="M.jpg.jpg">  
+    
+    
+    
+    
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">  
+    
+    <!-- github calendar css -->
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    
+</head> 
+
 <body>
-    <header>
-        <div class="div1">
-            <h1>About Michael Macieri</h1>
-        </div>
-    </header>
-    <br>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">     
+	        <div class="row align-items-center">
+			    <div class="col">         
+		            <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/tempProfile.png" alt="profile image" />
+		            <div class="profile-content">
+		                <h1 class="name">Michael Macieri</h1>
+		                <h2 class="desc">Business Technology Management Student</h2>                  
+		            </div><!--//profile-->
+			    </div><!--//col-->
+	        </div><!--//row-->         
+        </div><!--//container-->
+    </header><!--//header-->
     <nav>
         <ul>
-            <li><a href="index.html" onmouseover="changeColor(this)" onmouseout="resetColor(this)">Home Page</a></li> &nbsp; &nbsp; &nbsp; &nbsp;
-            <li><a href="notUpdated.html" onmouseover="changeColor(this)" onmouseout="resetColor(this)">Updates</a></li> &nbsp; &nbsp; &nbsp; &nbsp;
-            <li><a href="skills.html" onmouseover="changeColor(this)" onmouseout="resetColor(this)">Skills</a></li> &nbsp; &nbsp; &nbsp; &nbsp;
-            <li><a href="feedback.html" onmouseover="changeColor(this)" onmouseout="resetColor(this)">Feedback</a></li> &nbsp; &nbsp; &nbsp; &nbsp;
-            <li><a href="labFive.html" onmouseover="changeColor(this)" onmouseout="resetColor(this)">Contact</a></li> &nbsp; &nbsp; &nbsp; &nbsp;
+            <li><a href="index.html" onmouseover="changeColor(this)" onmouseout="resetColor(this)">Home Page</a></li> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+            <li><a href="notUpdated.html" onmouseover="changeColor(this)" onmouseout="resetColor(this)">Updates</a></li> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+            <li><a href="skills.html" onmouseover="changeColor(this)" onmouseout="resetColor(this)">Skills</a></li> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+            <li><a href="feedback.html" onmouseover="changeColor(this)" onmouseout="resetColor(this)">Feedback</a></li> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+            <li><a href="labFive.html" onmouseover="changeColor(this)" onmouseout="resetColor(this)">Contact</a></li> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
         </ul>
     </nav>
-   
-    <header>
-        <h2>Profile</h2>
-    </header>
-    <main> 
-        <p1>
-            Hard-working university student that takes initiative and requires little to no direction in performing 
-            responsibilities. Leads by example, listens actively, while earning trust and respect. Provides insights and 
-            efficiently completes tasks. Leveraging current role as a steppingstone to help me pursue opportunities in 
-            technology and business for the future.
-        </p1>
-    </main>
-
-    <header>
-        <h3>Education</h3>
-    </header>
-
-    <p1>
-        A list of my education: <br>
-    </p1>
-
-    <br>
-    <!-- div table -->
-    <div class="parent">
-        <div class="child1">
-            <br><b href="https://sites.google.com/gapps.yrdsb.ca/bcssscoreboard/home?authuser=0">Bill Crothers</b>
-        </div>
-        <div class="child2"> 
-            <p1><br>Graduated from Bill Crothers in 2020 with honours.</p4> 
-        </div>
-    </div>
-
-    <div class="parent">
-        <div class="child1">
-        <br><b href="https://www.torontomu.ca/calendar/2023-2024/programs/trsm/business_tech/">Toronto MU</b>
-    </div>
-        <div class="child2"> 
-            <p1> I am completing my undergraduate at TMU and am currently in my. <br>
-                 4th year in the BTM program. I am also finishing a minor in computer  <br>
-                 science and plan to get my masters in data analytics when I graduate. </p4>
-        </div>
-    </div>
-
-    <main>
-        <br>
-        <p1>Table format:</p1>
-        <br> <br>
-        <table>
-            <tr>
-                <th>Link</th>
-                <th>Description</th>
-            </tr>
-            <tr>
-                <td><b href="https://sites.google.com/gapps.yrdsb.ca/bcssscoreboard/home?authuser=0">Bill Crothers</b></td>
-                <td>Graduated from Bill Crothers in 2020 with honours.</td>
-            </tr>
-            <tr>
-                <td><b href="https://www.torontomu.ca/calendar/2023-2024/programs/trsm/business_tech/">Toronto MU</b></td>
-                <td>I am Completing my undergraduate at TMU and am currently in my. <br>
-                    4th year in the BTM program. I am also finishing a minor in computer  <br>
-                    science and plan to get my masters in data analytics when I graduate. 
-                </td>                
-            </tr>
-        </table>
-        <br>
-        <p1>
-            A list of my education (list format): <!--bullet-->
-        </p1>
-        <ul>
-            <li>Graduated from Bill Crothers in 2020: <b href="https://sites.google.com/gapps.yrdsb.ca/bcssscoreboard/home?authuser=0">Bill Crothers</b></li>
-            <li>Completing my Bcomm at Toronto MU: <b href="https://www.torontomu.ca/calendar/2023-2024/programs/trsm/business_tech/">Toronto MU</b></li>           
-            <li>A forth year BTM student</li>
-            <li>finishing a minor in Computer Science</li>
-        </ul>
-    </main>
-    <header>
-        <h4>
-            My Program: BTM
-        </h4>
-    </header>
-    <main>
-        <p2>
-            Combine a love for technology, business and management. 
-            This program allows you to complete a Bcomm while heavily focussing on the use of technology in the business world. <break></break>
-            My favourite courses are:
-        </p2>
-        <ol> 
-            <li>ITM500</li>
-            <li>ITM752</li>
-            <li>ITM760</li>
-        </ol>
-        <p3>
-            The selected courses in my program are my favourite due to thier involvement in data analytics. Data analysis is the field I plan to get into when I 
-            graduate and already have had 3 summer co op oppertunities with RBC in this field. I also plan on getting my masters in Data Analytics when I graduate.
-        </p3>
+    <div class="container sections-wrapper py-5">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>Hard-working university student that takes initiative and requires little to no direction in performing responsibilities. Leads by example, listens actively, while earning trust and respect. Provides insights and efficiently completes tasks. Leveraging current role as a steppingstone to help me pursue opportunities in technology and business for the future.</p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
     
-    </main>
-    <footer>
-        <br><br><br><br>
-        <hr>
-        <p5>Last updated March 18, 2024</p5>
-    </footer>
+               <section class="latest section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">    
+                                               
+                            <div class="item featured text-center">
+                                
+                                <div class="featured-image has-ribbon">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/tedRogers.jpeg" />
+                                    </a>
+                        
+                                </div>
+                                
+                                <h3 class="title mb-3"> <i class="fas fa-graduation-cap"></i><a href="https://www.torontomu.ca/calendar/2023-2024/programs/trsm/business_tech/"> Toronto Metropolitan University</a></h3>
+                                <p>2020 - Present (Ted Rogers Business & Technology)</p>
+
+                                <h3 class="title mb-3"> <i class="fas fa-graduation-cap"></i><a href="https://sites.google.com/gapps.yrdsb.ca/bcssscoreboard/home?authuser=0"> Bill Corthers Secondary School</a></h3>
+                                <p>Class of 2020, 4 consecutive years Honor Roll Student. <br> 2020 Perseverance award, 2019 Math award</p>
+
+                                </div><!--//item-->
+                            <hr class="divider" />
+                            <h2 class="heading">Work Experience</h2> 
+                            <h5 class="title">Business Analyst <br> RBC – Business Financial Services | 2021 – Present </h5> <br>
+                            <div class="item row">
+                                <a class="col-md-4 col-12"  target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/tab.png" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title">RBC 2023: May - Aug</a></h3>
+                                    <p class="mb-2">Gathering relevant data to analyze and derive insights for the Business Strategy Team by completing market share business credit quarterly reports, quarterly CBA report analysis and provide insights on earning reports for RBC vs competitors. Prepare competitive Intelligence Analysis by benchmarking the banks performance against the industry standards to identify areas of improvement. All reports are for executive consumption. Utilizing Tableau by updating dashboards, writing SQL queries to gather raw data.</p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                        
+                            <div class="item row">
+                                <a class="col-md-4 col-12" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/database.png" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title">RBC 2022: Jan - Aug</a></h3>
+                                    <p class="mb-2">Supported the development of the “Data Dictionary” feature in Credit Compass. In the initial stages of the process, worked closely with the design team to develop initial concept mockups and provide feedback. Mapped data elements from the front end through to the API level.</p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                             <div class="item row">
+                                <a class="col-md-4 col-12" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/CEBA.png" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title">RBC 2021: May - Dec</a></h3>
+                                    <p class="mb-2">Responsible for Management Reporting on Government Program Relief (CEBA) update report, analysis, template creation in the Business Banking. Helped launch V2 BN remediation for CEBA through testing and supporting the delivery into production. Key contributors were creating the test plan, bringing up defects, checking attestations for errors, matching the logic to the test clients, and helping launch into PIV.</p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                
+                </section><!--//section-->
+                
+                <section class="projects section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Additional Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"> Time Keeping/Game Videographer <br> Middletown Sports Complex - New Jersey| 2020 – 2021</h3>
+                                <p class="summary">Responsible for electronic scoreboard, time keeping for under 16 New Jersey Titans home games, roster validation, and game sheet tracking of goals and penalties. Performed filming home games for the team that are televised on Hockey TV.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Private Tutor <br> Specializing in Math and Com-Tech | 2018 – Present</h3>
+                                <p class="summary">Assisting students from grades 8 - 10 with understanding course content challenges and concepts, as well as, preparing them for tests and exams. </p>
+                           </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+                <section class="experience section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">ExtraCurricular Activities</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Something - <span class="place"></span> <span class="year">(2023 - Present)</span></h3>
+                                <p>information</p>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+
+<!--//info on the right hand side of the screen-->
+
+            </div><!--//primary-->
+            <div class="secondary col-lg-4 col-12">
+                 <aside class="info aside section">
+                    <div class="section-inner shadow-sm rounded"><!--Basic info-->
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Toronto, Canada</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span>macieri92@gmail.com</a></li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span>michael.macieri@toronotmu.ca</a></li>
+                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="https://michaelmacieri.github.io">https://michaelmacieri.github.io</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                Intro about skills will go here :)</p>
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">Python<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="I will add more info when i os hovered"><i class="fas fa-info-circle"></i>Expert</span></h3>
+
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 96%" aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></div>
+									</div><!--//level-bar-->                               
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">HTML, CSS &amp; Javascript<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="I will add more info when i os hovered"><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 94%" aria-valuenow="94"  aria-valuemin="0" aria-valuemax="94"></div>
+									</div><!--//level-bar-->                                   
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Java<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="I will add more info when i os hovered"><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 93%" aria-valuenow="93"  aria-valuemin="0" aria-valuemax="96"></div>
+									</div><!--//level-bar-->                                  
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Tableau &amp; SQL<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="I will add more info when i os hovered"><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 86%" aria-valuenow="86"  aria-valuemin="0" aria-valuemax="96"></div>
+									</div><!--//level-bar-->                                  
+                                </div>
+                                
+                                <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>Further Details on Skills Page</a></p> 
+                            </div>              
+                        </div> <!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+                <aside class="testimonials aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Volunteer Work</h2>
+                        <div class="content">
+                            <div class="item">
+                                <blockquote class="quote">                                  
+                                    <p>Mini Sticks Canada in Support of JDRF | <br>2019 - 2020</p>
+                                </blockquote>                                                                           
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <blockquote class="quote">                                  
+                                    <p>Hockey Trainer | St. Mary's Elementry School | <br>2017 - 2019</p>
+                                </blockquote>                                                                           
+                            </div><!--//item-->
+                            
+                            
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="education aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Extracurricular Activities</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"> Competitive Hockey for 15 years</h3>
+                                <ul>
+                                    <li>2008-2018 GTHL AAA</li>
+                                    <li>2019-PSHF Blyth Raiders</li>           
+                                    <li>2020- NA3HL – Juniors Mass Titans, NJ</li>
+                                    <li>2022-GOJHL</li>
+                                </ul>
+                                <p>Assistant Captain for my U18 team, the sport has taught me so many life lessons through collaboration, teamwork, and leadership.</p>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="blog aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Portfolio Updates</h2>
+                        <h6 class="title">Date: 00/00/00</h6>
+                        <ul>
+                            <li>Change 1</li>
+                            <li>Chaange 2</li>
+                        </ul>
+                        <p><span class="sr-only">Website:</span><a href="https://michaelmacieri.github.io"> <i class="fas fa-external-link-alt"></i>    For Full Details Click!</a></p>
+                        
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Created by: Michael Macieri <br>This website was last updated March 18, 2024 </small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/vanilla-rss/dist/rss.global.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script> 
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
 </body>
-</html>
+</html> 
